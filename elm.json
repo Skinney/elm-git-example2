@@ -1,6 +1,7 @@
 {
     "type": "application",
     "source-directories": [
+        "elm-stuff/gitdeps/Skinney/elm-git-example3/src",
         "src"
     ],
     "elm-version": "0.19.0",
@@ -20,5 +21,8 @@
     "test-dependencies": {
         "direct": {},
         "indirect": {}
+    },
+    "git-dependencies": {
+        "git@github.com:Skinney/elm-git-example3.git": "master"
     }
 }
